@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بلّورا (Bellora) — مركز الدعم الفني والمطور المعتمد لثيم سلة</title>
+  <meta name="description" content="مركز الدعم الفني الرسمي والمعتمد لقالب بلّورا (Bellora) على منصة سلة — مؤسسة الإبداعات الذكية (SSP). مساعدة فورية، توثيق، وتذاكر دعم فني لتجار سلة.">
+  <meta name="theme-color" content="#07050e">
+
+  <!-- OpenGraph / Social Media Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tareq7.github.io/bellora-support/">
+  <meta property="og:title" content="بلّورا (Bellora) — مركز الدعم الفني المعتمد لقالب سلة">
+  <meta property="og:description" content="الدعم الفني الرسمي لقالب بلّورا على سلة: تواصل مباشر عبر واتساب والبريد، توثيق شامل، وإرشادات تقنية فورية.">
+  <meta property="twitter:card" content="summary_large_image">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <div class="brand-icon">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Bellora | بلّورا</span>
+          <span class="brand-badge" data-i18n="brandBadge">قالب سلة معتمد</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="#channels" class="nav-link" data-i18n="navChannels">قنوات الدعم</a></li>
+        <li><a href="#ticket" class="nav-link" data-i18n="navTicket">تذكرة سريعة</a></li>
+        <li><a href="#faq" class="nav-link" data-i18n="navFaq">الأسئلة الشائعة</a></li>
+        <li><a href="#about" class="nav-link" data-i18n="navAbout">عن المطور</a></li>
+        <li><a href="https://bellora.ssp-1.com/" target="_blank" rel="noopener" class="nav-link" data-i18n="navDocs">التوثيق الرسمي ↗</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="langToggleBtn" class="lang-btn" type="button" aria-label="Switch Language">English</button>
+        <a href="https://wa.me/966556786362" target="_blank" rel="noopener" class="nav-cta" data-i18n="navCta">محادثة مباشرة</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-pill">
+        <span class="hero-pill-dot"></span>
+        <span data-i18n="heroBadge">مركز الدعم الفني الرسمي لتجار سلة</span>
+      </div>
+
+      <h1 class="hero-title" data-i18n="heroTitle">دعم فني فوري لقالب بلّورا (Bellora)</h1>
+      <p class="hero-subtitle" data-i18n="heroSubtitle">
+        نحن هنا لمساعدتك في تثبيت القالب، إعداد عروض 3D التفاعلية، وتخصيص تجربة التسوق الفاخرة لمتجرك بكل احترافية وسرعة.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="https://wa.me/966556786362" target="_blank" rel="noopener" class="btn-primary">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-5.705 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+          </svg>
+          <span data-i18n="heroWaBtn">تواصل معنا عبر واتساب</span>
+        </a>
+        <a href="https://bellora.ssp-1.com/" target="_blank" rel="noopener" class="btn-secondary">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+          </svg>
+          <span data-i18n="heroDocsBtn">دليل إعداد القالب</span>
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-value" data-i18n="statResponseTime">&lt; ساعتين</div>
+          <div class="stat-label" data-i18n="statResponseDesc">متوسط الرد في أوقات العمل</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" data-i18n="statTwilight">Twilight 2.14+</div>
+          <div class="stat-label" data-i18n="statTwilightDesc">متوافق بالكامل مع أحدث معايير سلة</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" data-i18n="stat3D">WebGL & AR</div>
+          <div class="stat-label" data-i18n="stat3DDesc">جاهز للواقع المعزز والثري دي</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" data-i18n="statSla">100% مضمون</div>
+          <div class="stat-label" data-i18n="statSlaDesc">دعم فني وتحديثات مستمرة</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support Channels Section -->
+  <section id="channels" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" data-i18n="channelsTag">وسائل التواصل المباشرة</div>
+        <h2 class="section-title" data-i18n="channelsTitle">اختر قناة الدعم المناسبة لك</h2>
+        <p class="section-desc" data-i18n="channelsDesc">فريقنا متواجد لخدمتك عبر قنوات متعددة لضمان استقرار وتميز متجرك.</p>
+      </div>
+
+      <div class="channels-grid">
+        <!-- WhatsApp Card -->
+        <div class="channel-card channel-whatsapp">
+          <div class="channel-icon">
+            <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-5.705 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+          </div>
+          <h3 class="channel-title" data-i18n="chWaTitle">الدعم المباشر عبر واتساب</h3>
+          <p class="channel-desc" data-i18n="chWaDesc">للاستفسارات السريعة، المشاكل التقنية الطارئة، وإرشادات التخصيص الفورية مع فريق التطوير مباشرة.</p>
+          <div class="channel-sla">
+            <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span data-i18n="chWaSla">رد فوري (9 ص - 10 م بتوقيت مكة)</span>
+          </div>
+          <a href="https://wa.me/966556786362" target="_blank" rel="noopener" class="channel-action" data-i18n="chWaAction">فتح محادثة واتساب</a>
+        </div>
+
+        <!-- Email Card -->
+        <div class="channel-card channel-email">
+          <div class="channel-icon">
+            <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h3 class="channel-title" data-i18n="chMailTitle">البريد الإلكتروني المعتمد</h3>
+          <p class="channel-desc" data-i18n="chMailDesc">لطلبات الدعم المفصلة، إرفاق ملفات النماذج ثلاثية الأبعاد، واستفسارات التخصيص الخاصة.</p>
+          <div class="channel-sla">
+            <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span data-i18n="chMailSla">خلال 24 ساعة كحد أقصى (SLA)</span>
+          </div>
+          <a href="mailto:info@ssp-1.com" class="channel-action" data-i18n="chMailAction">info@ssp-1.com</a>
+        </div>
+
+        <!-- Phone Card -->
+        <div class="channel-card channel-phone">
+          <div class="channel-icon">
+            <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+            </svg>
+          </div>
+          <h3 class="channel-title" data-i18n="chPhoneTitle">الهاتف المباشر</h3>
+          <p class="channel-desc" data-i18n="chPhoneDesc">للتواصل الهاتفي المباشر في الحالات العاجلة وطلبات المساعدة الفنية أثناء إطلاق المتجر.</p>
+          <div class="channel-sla">
+            <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span data-i18n="chPhoneSla">متاح خلال أوقات العمل الرسمية</span>
+          </div>
+          <a href="tel:+966556786362" class="channel-action" data-i18n="chPhoneAction">+966 55 678 6362</a>
+        </div>
+
+        <!-- Docs Card -->
+        <div class="channel-card channel-docs">
+          <div class="channel-icon">
+            <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+          </div>
+          <h3 class="channel-title" data-i18n="chDocsTitle">التوثيق وكتيب الإرشادات</h3>
+          <p class="channel-desc" data-i18n="chDocsDesc">شرح شامل ومصور لإعداد السلايدر الزجاجي، ضبط خيارات 3D، وتخصيص الألوان والوضع الداكن.</p>
+          <div class="channel-sla">
+            <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            <span data-i18n="chDocsSla">متاح على مدار الساعة</span>
+          </div>
+          <a href="https://bellora.ssp-1.com/" target="_blank" rel="noopener" class="channel-action" data-i18n="chDocsAction">تصفح التوثيق الكامل</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Support Ticket Section -->
+  <section id="ticket" class="section ticket-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" data-i18n="ticketTag">إنشاء تذكرة دعم</div>
+        <h2 class="section-title" data-i18n="ticketTitle">طلب مساعدة فنية سريعة</h2>
+        <p class="section-desc" data-i18n="ticketDesc">املأ البيانات أدناه لإنشاء رسالة دعم منظمة وسيتم تحويلك مباشرة للواتساب أو البريد بضغطة واحدة.</p>
+      </div>
+
+      <div class="ticket-card">
+        <form id="ticketForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="ticketStoreName" data-i18n="labelStoreName">اسم المتجر في سلة *</label>
+              <input type="text" id="ticketStoreName" class="form-control" placeholder="مثال: متجر الأناقة" data-i18n-ph="phStoreName" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="ticketStoreUrl" data-i18n="labelStoreUrl">رابط المتجر في سلة (Domain) *</label>
+              <input type="text" id="ticketStoreUrl" class="form-control" placeholder="مثال: store.salla.sa أو yourdomain.com" data-i18n-ph="phStoreUrl" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="ticketContact" data-i18n="labelContact">رقم الجوال أو البريد الإلكتروني للتواصل *</label>
+              <input type="text" id="ticketContact" class="form-control" placeholder="مثال: 055xxxxxxx أو email@example.com" data-i18n-ph="phContact" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="ticketCategory" data-i18n="labelCategory">نوع المشكلة أو الطلب *</label>
+              <select id="ticketCategory" class="form-control">
+                <option value="install" data-i18n="catInstall">تثبيت وتفعيل القالب</option>
+                <option value="3d" data-i18n="cat3D">إعداد النماذج ثلاثية الأبعاد (GLB/GLTF)</option>
+                <option value="design" data-i18n="catDesign">تخصيص الألوان والتصميم والخطوط</option>
+                <option value="bug" data-i18n="catBug">الإبلاغ عن خطأ برمجي (Bug)</option>
+                <option value="other" data-i18n="catOther">استفسار أو طلب عام</option>
+              </select>
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label" for="ticketDesc" data-i18n="labelDesc">تفاصيل الطلب أو المشكلة *</label>
+              <textarea id="ticketDesc" class="form-control" placeholder="اشرح المشكلة بالتفصيل، وأي روابط أو لقطات شاشة مساعدة..." data-i18n-ph="phDesc" required></textarea>
+            </div>
+          </div>
+
+          <div class="ticket-actions">
+            <button type="button" id="sendWaBtn" class="btn-ticket-wa" data-i18n="btnSendWa">إرسال عبر واتساب 💬</button>
+            <button type="button" id="sendMailBtn" class="btn-ticket-mail" data-i18n="btnSendMail">إرسال عبر البريد الإلكتروني ✉️</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" data-i18n="faqTag">الأسئلة الشائعة</div>
+        <h2 class="section-title" data-i18n="faqTitle">إجابات على أكثر أسئلة التجار شيوعاً</h2>
+        <p class="section-desc" data-i18n="faqDesc">كل ما تحتاج معرفته حول تثبيت، تحديث، ودعم قالب بلّورا لمتجرك في سلة.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item active">
+          <button class="faq-trigger" type="button">
+            <span data-i18n="faq1Q">كيف أقوم بتفعيل قالب بلّورا على متجري بعد شرائه؟</span>
+            <svg class="faq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-body">
+            <p data-i18n="faq1A">بمجرد شراء القالب من متجر قوالب سلة، توجه إلى لوحة تحكم متجرك -> تخصيص المتجر -> القوالب. ستجد بلّورا متاحاً في قوالبك، انقر على 'تطبيق القالب' ثم 'تخصيص' للبدء في ضبط الألوان والواجهة.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" type="button">
+            <span data-i18n="faq2Q">كيف أقوم بإضافة نماذج 3D للمنتجات وللسلايدر الرئيسي؟</span>
+            <svg class="faq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-body">
+            <p data-i18n="faq2A">يدعم قالب بلّورا ملفات GLB و GLTF خفيفة الحجم. يمكنك رفع الملف على رابط مباشر يدعم CORS أو عبر مكتبة الوسائط ووضعه في خانة رابط 3D المخصص في خيارات تخصيص القالب أو حقل النموذج ثلاثي الأبعاد المدمج بسلة. ستظهر الموديلات تلقائياً مع خيار العرض بالواقع المعزز (AR).</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" type="button">
+            <span data-i18n="faq3Q">هل القالب متوافق مع الوضع الليلي (Dark Mode) والهواتف الذكية؟</span>
+            <svg class="faq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-body">
+            <p data-i18n="faq3A">نعم 100%. تم بناء القالب ليكون متجاوباً تماماً (Mobile-First) مع تكيف ذكي مع الوضع الداكن تلقائياً وفق جهاز العميل، مع الحفاظ على جماليات الزجاج الشفاف وسرعة التصفح العالية.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" type="button">
+            <span data-i18n="faq4Q">كيف تصلني التحديثات والتحسينات المستقبلية للقالب؟</span>
+            <svg class="faq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-body">
+            <p data-i18n="faq4A">تصل جميع التحديثات الأمنية، وتحديثات التوافق مع منصة سلة، والميزات الجديدة تلقائياً عبر لوحة تحكم سلة دون الحاجة لإعادة ضبط إعدادات متجرك.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger" type="button">
+            <span data-i18n="faq5Q">ما هي حدود الدعم الفني المجاني المشمول مع القالب؟</span>
+            <svg class="faq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="faq-body">
+            <p data-i18n="faq5A">يشمل الدعم الفني المجاني حل أي أخطاء برمجية متعلقة بالقالب، المساعدة في ضبط الإعدادات الافتراضية، وتقديم الإرشادات الفنية لاستخدام مميزات 3D والتصميم الزجاجي. لطلبات التخصيص البرمجي المتقدم يمكنك مراسلتنا لترتيب ذلك.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Developer & Company Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-card">
+        <div>
+          <div class="about-badge">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            <span data-i18n="aboutBadge">شريك تطوير معتمد في منصة سلة</span>
+          </div>
+          <h2 class="about-name" data-i18n="aboutName">مؤسسة الإبداعات الذكية (Smart Solutions Provider - SSP)</h2>
+          <div class="about-role" data-i18n="aboutRole">بإدارة المطور: طارق ناجي (Tareq Naji)</div>
+          <p class="about-text" data-i18n="aboutText">
+            نحن استوديو متخصص في تطوير واجهات التجارة الإلكترونية الفاخرة وتطبيقات وحلول منصة سلة. نلتزم بتقديم تجارب تسوق رقمية استثنائية تجمع بين أعلى معايير الجمالية البصرية والسرعة الفائقة مع الالتزام الصارم بمعايير Twilight الرسمية.
+          </p>
+        </div>
+
+        <div class="about-features">
+          <div class="feature-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span data-i18n="feat1">خبرة متقدمة في معايير Twilight 2.14 و WebGL</span>
+          </div>
+          <div class="feature-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span data-i18n="feat2">التزام صارم بحماية البيانات ومعايير الأمان المعتمدة</span>
+          </div>
+          <div class="feature-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span data-i18n="feat3">دعم فني مستمر وتحديثات متوافقة دورياً مع سلة</span>
+          </div>
+          <div class="feature-item">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span data-i18n="feat4">حلول تقنية مبتكرة لزيادة معدلات التحويل للتاجر</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>Bellora | بلّورا</h4>
+          <p data-i18n="footerDesc">قالب بلّورا (Bellora) — واجهة متجر سلة الفاخرة بتقنيات العرض ثلاثي الأبعاد والتصميم الزجاجي المتطور.</p>
+        </div>
+
+        <div class="footer-col">
+          <h5 data-i18n="footerSupport">الدعم والمساعدة</h5>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/966556786362" target="_blank" rel="noopener">WhatsApp Support</a></li>
+            <li><a href="mailto:info@ssp-1.com">info@ssp-1.com</a></li>
+            <li><a href="tel:+966556786362">+966 55 678 6362</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5 data-i18n="footerLegal">الروابط الرسمية</h5>
+          <ul class="footer-links">
+            <li><a href="https://bellora.ssp-1.com/" target="_blank" rel="noopener" data-i18n="navDocs">التوثيق الرسمي ↗</a></li>
+            <li><a href="https://salla.sa/" target="_blank" rel="noopener">منصة سلة (Salla.sa)</a></li>
+            <li><a href="https://github.com/tareq7/premium-storefront" target="_blank" rel="noopener">GitHub Project</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div data-i18n="footerCopy">© 2026 مؤسسة الإبداعات الذكية (SSP). جميع الحقوق محفوظة.</div>
+        <div data-i18n="footerPartnerNote">قالب معتمد ومصمم خصيصاً لمنصة سلة (Salla.sa)</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
