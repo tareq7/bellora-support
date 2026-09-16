@@ -92,11 +92,11 @@ const translations = {
     faq5Q: "ما هي حدود الدعم الفني المجاني المشمول مع القالب؟",
     faq5A: "يشمل الدعم الفني المجاني حل أي أخطاء برمجية متعلقة بالقالب، المساعدة في ضبط الإعدادات الافتراضية، وتقديم الإرشادات الفنية لاستخدام مميزات 3D والتصميم الزجاجي. لطلبات التخصيص البرمجي المتقدم يمكنك مراسلتنا لترتيب ذلك.",
 
-    aboutTag: "المطور والمؤسسة",
+    aboutTag: "استوديو التطوير",
     aboutBadge: "شريك تطوير معتمد في منصة سلة",
     aboutName: "مؤسسة الإبداعات الذكية (Smart Solutions Provider - SSP)",
-    aboutRole: "بإدارة المطور: طارق ناجي (Tareq Naji)",
-    aboutText: "نحن استوديو متخصص في تطوير واجهات التجارة الإلكترونية الفاخرة وتطبيقات وحلول منصة سلة. نلتزم بتقديم تجارب تسوق رقمية استثنائية تجمع بين أعلى معايير الجمالية البصرية والسرعة الفائقة مع الالتزام الصارم بمعايير Twilight الرسمية.",
+    aboutRole: "فريق هندسة وتطوير واجهات سلة المعتمدة",
+    aboutText: "نحن استوديو متخصص في تطوير واجهات التجارة الإلكترونية الفاخرة وتطبيقات وحلول منصة سلة. نلتزم بتمكين التجار من تقديم تجارب تسوق رقمية استثنائية تجمع بين أعلى معايير الجمالية البصرية والسرعة الفائقة مع الالتزام الصارم بمعايير Twilight الرسمية.",
     feat1: "خبرة متقدمة في معايير Twilight 2.14 و WebGL",
     feat2: "التزام صارم بحماية البيانات ومعايير الأمان المعتمدة",
     feat3: "دعم فني مستمر وتحديثات متوافقة دورياً مع سلة",
@@ -104,6 +104,8 @@ const translations = {
 
     footerDesc: "قالب بلّورا (Bellora) — واجهة متجر سلة الفاخرة بتقنيات العرض ثلاثي الأبعاد والتصميم الزجاجي المتطور.",
     footerSupport: "الدعم والمساعدة",
+    footerWa: "الدعم المباشر عبر واتساب",
+    footerTheme: "قالب بلّورا على متجر سلة",
     footerLegal: "الروابط الرسمية",
     footerCopy: "© 2026 مؤسسة الإبداعات الذكية (SSP). جميع الحقوق محفوظة.",
     footerPartnerNote: "قالب معتمد ومصمم خصيصاً لمنصة سلة (Salla.sa)"
@@ -196,11 +198,11 @@ const translations = {
     faq5Q: "What is covered under official theme support?",
     faq5A: "Free support includes resolving theme bugs, assistance with setting up native features, and technical guidance for 3D model integration. For bespoke custom development or third-party app integrations, contact us directly.",
 
-    aboutTag: "Developer & Studio",
+    aboutTag: "Engineering & Studio",
     aboutBadge: "Certified Salla Development Partner",
     aboutName: "Smart Solutions Provider (SSP)",
-    aboutRole: "Lead Developer: Tareq Naji",
-    aboutText: "We are an elite software studio specializing in high-end e-commerce storefronts, Twilight themes, and custom applications for the Salla ecosystem. We focus on craft, high conversion rates, and strict adherence to Salla performance guidelines.",
+    aboutRole: "Certified Salla Theme Engineering Team",
+    aboutText: "We are an elite software studio specializing in luxury e-commerce storefronts, Twilight themes, and custom applications for the Salla ecosystem. We focus on craft, high conversion rates, and strict adherence to Salla performance guidelines.",
     feat1: "Deep expertise in Salla Twilight 2.14 & WebGL 3D",
     feat2: "Strict data privacy and certified security standards",
     feat3: "Proactive maintenance aligned with Salla platform roadmap",
@@ -208,6 +210,8 @@ const translations = {
 
     footerDesc: "Bellora — The luxury Salla storefront theme featuring interactive 3D visualizations and frosted glass design.",
     footerSupport: "Help & Support",
+    footerWa: "WhatsApp Live Support",
+    footerTheme: "Bellora on Salla Marketplace",
     footerLegal: "Official Links",
     footerCopy: "© 2026 Smart Solutions Provider (SSP). All rights reserved.",
     footerPartnerNote: "Certified Theme developed specifically for Salla.sa"
@@ -227,7 +231,11 @@ function setLanguage(lang) {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (dict[key]) {
-      el.textContent = dict[key];
+      if (el.dataset.bdi === 'true') {
+        el.innerHTML = `<bdi class="phone-dir" dir="ltr">${dict[key]}</bdi>`;
+      } else {
+        el.textContent = dict[key];
+      }
     }
   });
 
