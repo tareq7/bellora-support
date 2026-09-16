@@ -540,6 +540,13 @@ html[lang="en"] body {
   box-shadow: 0 4px 18px var(--channel-glow, var(--primary-glow));
 }
 
+.channel-action-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
 /* Custom Channel Accents */
 .channel-whatsapp {
   --channel-accent: #25D366;

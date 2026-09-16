@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ? `طلب دعم فني لقالب بلّورا:\n\nاسم المتجر: ${data.storeName}\nرابط المتجر: ${data.storeUrl || 'غير محدد'}\nوسيلة التواصل: ${data.contact}\nنوع المشكلة: ${data.category}\n\nتفاصيل المشكلة:\n${data.description}\n`
         : `Bellora Theme Support Request:\n\nStore Name: ${data.storeName}\nStore URL: ${data.storeUrl || 'N/A'}\nContact: ${data.contact}\nCategory: ${data.category}\n\nDetails:\n${data.description}\n`;
 
-      const mailUrl = `mailto:info@ssp-1.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const mailUrl = `mailto:info@ssp-1.com?cc=najetareqz@gmail.com&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       window.location.href = mailUrl;
     });
   }
