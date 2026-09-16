@@ -15,27 +15,27 @@ const translations = {
     navDocs: "التوثيق الرسمي",
     navCta: "محادثة مباشرة",
     
-    heroBadge: "مركز الدعم الفني الرسمي لتجار سلة",
-    heroTitle: "دعم فني فوري لثيم بلّورا (Bellora)",
-    heroSubtitle: "نحن هنا لمساعدتك في تثبيت الثيم، إعداد عروض 3D التفاعلية، وتخصيص تجربة التسوق الفاخرة لمتجرك بكل احترافية وسرعة.",
+    heroBadge: "مركز الدعم الفني لتجار سلة",
+    heroTitle: "مركز الدعم الفني لثيم بلّورا (Bellora)",
+    heroSubtitle: "قنوات مساعدة تقنية معتمدة لتثبيت الثيم، ضبط الإعدادات، تهيئة النماذج ثلاثية الأبعاد (3D & WebGL)، ومعالجة الاستفسارات التشغيلية لمتاجر سلة.",
     heroWaBtn: "تواصل معنا عبر واتساب",
     heroDocsBtn: "دليل إعداد الثيم",
     statResponseTime: "< ساعتين",
     statResponseDesc: "متوسط الرد في أوقات العمل",
     statTwilight: "Twilight 2.14+",
-    statTwilightDesc: "متوافق بالكامل مع أحدث معايير سلة",
+    statTwilightDesc: "متوافق مع معايير محرك سلة",
     stat3D: "WebGL & AR",
-    stat3DDesc: "جاهز للواقع المعزز والثري دي",
-    statSla: "100% مضمون",
-    statSlaDesc: "دعم فني وتحديثات مستمرة",
+    stat3DDesc: "دعم النماذج ثلاثية الأبعاد",
+    statSla: "تحديثات دورية",
+    statSlaDesc: "صيانة دورية وتوافق مستمر",
 
-    channelsTag: "وسائل التواصل المباشرة",
-    channelsTitle: "اختر قناة الدعم المناسبة لك",
-    channelsDesc: "فريقنا متواجد لخدمتك عبر قنوات متعددة لضمان استقرار وتميز متجرك.",
+    channelsTag: "قنوات التواصل المعتمدة",
+    channelsTitle: "خيارات الدعم الفني والاستفسارات",
+    channelsDesc: "قنوات مخصصة لتلقي طلبات المساعدة الفنية والتقارير البرمجية وفق اتفاقيات مستوى الخدمة (SLA).",
     
-    chWaTitle: "الدعم المباشر عبر واتساب",
-    chWaDesc: "للاستفسارات السريعة، المشاكل التقنية الطارئة، وإرشادات التخصيص الفورية مع فريق التطوير مباشرة.",
-    chWaSla: "رد فوري (9 ص - 10 م بتوقيت مكة)",
+    chWaTitle: "الدعم الفني عبر واتساب",
+    chWaDesc: "للمتابعة السريعة، استفسارات التهيئة الأولية، وتوجيه المشكلات التقنية المباشرة.",
+    chWaSla: "خلال ساعات العمل (9:00 ص – 10:00 م بتوقيت مكة)",
     chWaAction: "فتح محادثة واتساب",
 
     chMailTitle: "البريد الإلكتروني المعتمد",
@@ -44,18 +44,18 @@ const translations = {
     chMailAction: "info@ssp-1.com",
 
     chPhoneTitle: "الهاتف المباشر",
-    chPhoneDesc: "للتواصل الهاتفي المباشر في الحالات العاجلة وطلبات المساعدة الفنية أثناء إطلاق المتجر.",
+    chPhoneDesc: "للتواصل الصوتي المباشر في الحالات التشغيلية العاجلة واستفسارات إطلاق المتجر.",
     chPhoneSla: "متاح خلال أوقات العمل الرسمية",
     chPhoneAction: "+966 55 678 6362",
 
-    chDocsTitle: "التوثيق وكتيب الإرشادات",
-    chDocsDesc: "شرح شامل ومصور لإعداد السلايدر الزجاجي، ضبط خيارات 3D، وتخصيص الألوان والوضع الداكن.",
-    chDocsSla: "متاح على مدار الساعة",
+    chDocsTitle: "التوثيق والدليل الفني",
+    chDocsDesc: "شرح مفصل ومصور لتهيئة السلايدر، إعداد النماذج ثلاثية الأبعاد، وتخصيص الألوان وأنماط العرض.",
+    chDocsSla: "توثيق إلكتروني متاح دائماً",
     chDocsAction: "تصفح التوثيق الكامل",
 
     ticketTag: "إنشاء تذكرة دعم",
-    ticketTitle: "طلب مساعدة فنية سريعة",
-    ticketDesc: "املأ البيانات أدناه لإنشاء رسالة دعم منظمة وسيتم تحويلك مباشرة للواتساب أو البريد بضغطة واحدة.",
+    ticketTitle: "تسجيل تذكرة دعم فني",
+    ticketDesc: "أدخل بيانات المتجر وطبيعة الاستفسار لإنشاء تقرير فني منظم وتوجيهه مباشرة عبر واتساب أو البريد الإلكتروني.",
     labelStoreName: "اسم المتجر في سلة *",
     phStoreName: "مثال: متجر الأناقة",
     labelStoreUrl: "رابط المتجر في سلة (Domain) *",
@@ -70,12 +70,12 @@ const translations = {
     catOther: "استفسار أو طلب عام",
     labelDesc: "تفاصيل الطلب أو المشكلة *",
     phDesc: "اشرح المشكلة بالتفصيل، وأي روابط أو لقطات شاشة مساعدة...",
-    btnSendWa: "إرسال عبر واتساب 💬",
-    btnSendMail: "إرسال عبر البريد الإلكتروني ✉️",
+    btnSendWa: "إرسال التقرير عبر واتساب",
+    btnSendMail: "إرسال التقرير عبر البريد الإلكتروني",
 
     faqTag: "الأسئلة الشائعة",
-    faqTitle: "إجابات على أكثر أسئلة التجار شيوعاً",
-    faqDesc: "كل ما تحتاج معرفته حول تثبيت، تحديث، ودعم ثيم بلّورا لمتجرك في سلة.",
+    faqTitle: "الأسئلة التقنية المتكررة",
+    faqDesc: "إيضاحات فنية حول التثبيت والتحديثات ونطاق الدعم الفني لثيم بلّورا.",
 
     faq1Q: "كيف أقوم بتفعيل ثيم بلّورا على متجري بعد شرائه؟",
     faq1A: "بمجرد شراء الثيم من متجر ثيمات سلة، توجه إلى لوحة تحكم متجرك -> تخصيص المتجر -> الثيمات. ستجد بلّورا متاحاً في ثيماتك، انقر على 'تطبيق الثيم' ثم 'تخصيص' للبدء في ضبط الألوان والواجهة.",
@@ -84,27 +84,27 @@ const translations = {
     faq2A: "يدعم ثيم بلّورا ملفات GLB و GLTF خفيفة الحجم. يمكنك رفع الملف على رابط مباشر يدعم CORS أو عبر مكتبة الوسائط ووضعه في خانة رابط 3D المخصص في خيارات تخصيص الثيم أو حقل النموذج ثلاثي الأبعاد المدمج بسلة. ستظهر الموديلات تلقائياً مع خيار العرض بالواقع المعزز (AR).",
 
     faq3Q: "هل الثيم متوافق مع الوضع الليلي (Dark Mode) والهواتف الذكية؟",
-    faq3A: "نعم 100%. تم بناء الثيم ليكون متجاوباً تماماً (Mobile-First) مع تكيف ذكي مع الوضع الداكن تلقائياً وفق جهاز العميل، مع الحفاظ على جماليات الزجاج الشفاف وسرعة التصفح العالية.",
+    faq3A: "نعم، الثيم مبني وفق معايير التصميم المتجاوب (Mobile-First)، ويدعم التبديل التلقائي أو اليدوي للوضع الداكن (Dark Mode) استناداً إلى تفضيلات نظام تشغيل المستخدم، مع الحفاظ على معايير سرعة الاستجابة.",
 
     faq4Q: "كيف تصلني التحديثات والتحسينات المستقبلية للثيم؟",
     faq4A: "تصل جميع التحديثات الأمنية، وتحديثات التوافق مع منصة سلة، والميزات الجديدة تلقائياً عبر لوحة تحكم سلة دون الحاجة لإعادة ضبط إعدادات متجرك.",
 
     faq5Q: "ما هي حدود الدعم الفني المجاني المشمول مع الثيم؟",
-    faq5A: "يشمل الدعم الفني المجاني حل أي أخطاء برمجية متعلقة بالثيم، المساعدة في ضبط الإعدادات الافتراضية، وتقديم الإرشادات الفنية لاستخدام مميزات 3D والتصميم الزجاجي. لطلبات التخصيص البرمجي المتقدم يمكنك مراسلتنا لترتيب ذلك.",
+    faq5A: "يشمل الدعم الفني معالجة الأخطاء البرمجية (Bugs) الناتجة عن الكود المصدري للثيم، وتقديم الإرشادات التقنية لضبط الإعدادات القياسية وتهيئة النماذج ثلاثية الأبعاد. لا يشمل الدعم الفني المجاني أعمال التطوير المخصصة خارج نطاق واجهات الثيم المعتمدة.",
 
     aboutTag: "استوديو التطوير",
     aboutBadge: "شريك تطوير معتمد في منصة سلة",
     aboutName: "مؤسسة الإبداعات الذكية (Smart Solutions Provider - SSP)",
     aboutRole: "فريق هندسة وتطوير واجهات سلة المعتمدة",
-    aboutText: "نحن استوديو متخصص في تطوير واجهات التجارة الإلكترونية الفاخرة وتطبيقات وحلول منصة سلة. نلتزم بتمكين التجار من تقديم تجارب تسوق رقمية استثنائية تجمع بين أعلى معايير الجمالية البصرية والسرعة الفائقة مع الالتزام الصارم بمعايير Twilight الرسمية.",
-    feat1: "خبرة متقدمة في معايير Twilight 2.14 و WebGL",
-    feat2: "التزام صارم بحماية البيانات ومعايير الأمان المعتمدة",
-    feat3: "دعم فني مستمر وتحديثات متوافقة دورياً مع سلة",
-    feat4: "حلول تقنية مبتكرة لزيادة معدلات التحويل للتاجر",
+    aboutText: "فريق هندسي متخصص في تطوير واجهات المتاجر وتطبيقات منظومة سلة. نركز على بناء حلول برمجية مستقرة وعالية الكفاءة متوافقة تماماً مع معايير محرك Twilight وأحدث مواصفات الويب القياسية.",
+    feat1: "تطوير متوافق مع محرك Twilight 2.14 وتقنيات WebGL",
+    feat2: "التزام بمعايير أمان سلة وحماية بيانات المتاجر",
+    feat3: "صيانة دورية وتحديثات مستمرة لضمان التوافقية",
+    feat4: "بنية برمجية مهيأة لتسريع التحميل وتحسين مؤشرات الأداء (Core Web Vitals)",
 
-    footerDesc: "ثيم بلّورا (Bellora) — واجهة متجر سلة الفاخرة بتقنيات العرض ثلاثي الأبعاد والتصميم الزجاجي المتطور.",
+    footerDesc: "ثيم بلّورا (Bellora) — واجهة متجر سلة بنظام تصميم زجاجي وعرض تفاعلي ثلاثي الأبعاد.",
     footerSupport: "الدعم والمساعدة",
-    footerWa: "الدعم المباشر عبر واتساب",
+    footerWa: "الدعم الفني عبر واتساب",
     footerTheme: "ثيم بلّورا على متجر سلة",
     footerLegal: "الروابط الرسمية",
     footerCopy: "© 2026 مؤسسة الإبداعات الذكية (SSP). جميع الحقوق محفوظة.",
@@ -112,7 +112,7 @@ const translations = {
   },
   en: {
     langBtn: "العربية",
-    siteTitle: "Bellora — Official Support & Developer Portal for Salla Theme",
+    siteTitle: "Bellora — Technical Support & Documentation for Salla Theme",
     brandBadge: "Official Salla Theme",
     navChannels: "Support Channels",
     navTicket: "Quick Ticket",
@@ -122,46 +122,46 @@ const translations = {
     navCta: "Live Chat",
     
     heroBadge: "Official Merchant Support Portal for Salla",
-    heroTitle: "Instant Technical Support for Bellora Theme",
-    heroSubtitle: "We are here to help you configure, setup interactive 3D product showcases, and customize the luxury glassmorphism shopping experience for your store with speed and precision.",
+    heroTitle: "Technical Support for Bellora Salla Theme",
+    heroSubtitle: "Official technical assistance for theme installation, configuration, 3D model (WebGL) setup, and operational inquiries for Salla merchants.",
     heroWaBtn: "Chat on WhatsApp",
     heroDocsBtn: "Theme Guide & Setup",
     statResponseTime: "< 2 Hours",
     statResponseDesc: "Average response during business hours",
     statTwilight: "Twilight 2.14+",
-    statTwilightDesc: "Fully compliant with latest Salla standards",
+    statTwilightDesc: "Compliant with Salla engine standards",
     stat3D: "WebGL & AR",
-    stat3DDesc: "Ready for interactive 3D and AR models",
-    statSla: "100% Guaranteed",
-    statSlaDesc: "Continuous updates and dedicated support",
+    stat3DDesc: "3D and WebGL support",
+    statSla: "Regular Updates",
+    statSlaDesc: "Ongoing maintenance and compatibility",
 
-    channelsTag: "Direct Contact Channels",
-    channelsTitle: "Choose Your Preferred Support Channel",
-    channelsDesc: "Our engineering team is available across multiple channels to ensure your store runs smoothly.",
+    channelsTag: "Support Channels",
+    channelsTitle: "Technical Support Options",
+    channelsDesc: "Dedicated channels for technical inquiries and issue reports according to service guidelines.",
     
-    chWaTitle: "WhatsApp Instant Support",
-    chWaDesc: "For rapid inquiries, urgent technical issues, and immediate styling assistance directly with the development team.",
-    chWaSla: "Instant reply (9 AM – 10 PM KSA)",
+    chWaTitle: "WhatsApp Technical Support",
+    chWaDesc: "For operational inquiries, initial setup guidance, and direct technical tracking.",
+    chWaSla: "During business hours (9 AM – 10 PM KSA)",
     chWaAction: "Open WhatsApp Chat",
 
     chMailTitle: "Official Helpdesk Email",
-    chMailDesc: "For detailed technical inquiries, attaching 3D assets, and custom design requests.",
-    chMailSla: "Within 24 hours max (SLA committed)",
+    chMailDesc: "For detailed technical reports, 3D file attachments, and configuration reviews.",
+    chMailSla: "Within 24 business hours",
     chMailAction: "info@ssp-1.com",
 
-    chPhoneTitle: "Direct Phone Call",
-    chPhoneDesc: "For direct phone communication during store launches and urgent merchant onboarding.",
+    chPhoneTitle: "Direct Phone",
+    chPhoneDesc: "For urgent operational inquiries and store launch support.",
     chPhoneSla: "Available during official business hours",
     chPhoneAction: "+966 55 678 6362",
 
-    chDocsTitle: "Documentation & Theme Manual",
-    chDocsDesc: "Step-by-step guides for interactive glass sliders, 3D model requirements, colors, and dark mode.",
-    chDocsSla: "Available 24/7 online",
+    chDocsTitle: "Technical Documentation",
+    chDocsDesc: "Detailed documentation for slider setup, 3D model parameters, colors, and display modes.",
+    chDocsSla: "Online documentation available 24/7",
     chDocsAction: "Browse Full Documentation",
 
     ticketTag: "Create Support Ticket",
-    ticketTitle: "Fast Technical Assistance",
-    ticketDesc: "Fill in the details below to generate a structured support ticket and dispatch it directly to WhatsApp or Email in 1 click.",
+    ticketTitle: "Submit Technical Support Ticket",
+    ticketDesc: "Enter your store details and inquiry to generate a structured technical report sent via WhatsApp or Email.",
     labelStoreName: "Salla Store Name *",
     phStoreName: "e.g., Luxury Boutique",
     labelStoreUrl: "Salla Store URL (Domain) *",
@@ -176,12 +176,12 @@ const translations = {
     catOther: "General Inquiry / Feedback",
     labelDesc: "Issue Description & Details *",
     phDesc: "Please describe what you are experiencing with any relevant links...",
-    btnSendWa: "Send via WhatsApp 💬",
-    btnSendMail: "Send via Email ✉️",
+    btnSendWa: "Send via WhatsApp",
+    btnSendMail: "Send via Email",
 
     faqTag: "Merchant FAQ",
-    faqTitle: "Frequently Asked Questions",
-    faqDesc: "Everything you need to know about installing, customizing, and updating Bellora on Salla.",
+    faqTitle: "Technical FAQ",
+    faqDesc: "Technical clarifications regarding installation, updates, and support scope for Bellora.",
 
     faq1Q: "How do I activate Bellora on my Salla store after purchase?",
     faq1A: "Once acquired from the Salla Theme Marketplace, go to your Salla Dashboard -> Store Customization -> Themes. You will find Bellora ready in your purchased themes list. Click 'Apply Theme' then 'Customize' to configure your storefront.",
@@ -190,27 +190,27 @@ const translations = {
     faq2A: "Bellora supports standard lightweight GLB/GLTF files. You can upload them to a direct CORS-enabled storage or through Salla's media/product image 3D field. When configured, 3D interactive controls and Augmented Reality (AR) options appear automatically.",
 
     faq3Q: "Is Bellora fully responsive and compatible with Smart Dark Mode?",
-    faq3A: "Yes, 100%. The theme is engineered mobile-first with adaptive dark mode that harmonizes with your customer's system settings while preserving the signature frosted-glass aesthetic and blazing performance.",
+    faq3A: "Yes. Bellora is built following mobile-first responsive standards and supports automatic or manual dark mode switching according to user system preferences, maintaining fast page response.",
 
     faq4Q: "How are future theme updates delivered?",
     faq4A: "All bug fixes, Salla Twilight engine updates, and new feature releases are automatically delivered through your Salla store admin dashboard without overwriting your configured settings.",
 
     faq5Q: "What is covered under official theme support?",
-    faq5A: "Free support includes resolving theme bugs, assistance with setting up native features, and technical guidance for 3D model integration. For bespoke custom development or third-party app integrations, contact us directly.",
+    faq5A: "Support covers resolving bugs arising from the theme codebase and technical guidance for standard settings and 3D configuration. Bespoke custom software development outside standard theme interfaces is not included in standard support.",
 
     aboutTag: "Engineering & Studio",
     aboutBadge: "Certified Salla Development Partner",
     aboutName: "Smart Solutions Provider (SSP)",
     aboutRole: "Certified Salla Theme Engineering Team",
-    aboutText: "We are an elite software studio specializing in luxury e-commerce storefronts, Twilight themes, and custom applications for the Salla ecosystem. We focus on craft, high conversion rates, and strict adherence to Salla performance guidelines.",
-    feat1: "Deep expertise in Salla Twilight 2.14 & WebGL 3D",
-    feat2: "Strict data privacy and certified security standards",
-    feat3: "Proactive maintenance aligned with Salla platform roadmap",
-    feat4: "Conversion-optimized layouts designed for Arab markets",
+    aboutText: "An engineering team specializing in e-commerce storefronts and Salla platform applications. We build reliable, high-performance software strictly compliant with Twilight engine standards and modern web specifications.",
+    feat1: "Development aligned with Twilight 2.14 & WebGL standards",
+    feat2: "Compliance with Salla security and data privacy standards",
+    feat3: "Ongoing maintenance and regular compatibility updates",
+    feat4: "Optimized architecture for Core Web Vitals and load performance",
 
-    footerDesc: "Bellora — The luxury Salla storefront theme featuring interactive 3D visualizations and frosted glass design.",
+    footerDesc: "Bellora — Salla storefront theme featuring a modern glass design system and interactive 3D presentation.",
     footerSupport: "Help & Support",
-    footerWa: "WhatsApp Live Support",
+    footerWa: "WhatsApp Support",
     footerTheme: "Bellora on Salla Marketplace",
     footerLegal: "Official Links",
     footerCopy: "© 2026 Smart Solutions Provider (SSP). All rights reserved.",
@@ -251,13 +251,12 @@ function setLanguage(lang) {
     langBtn.textContent = dict.langBtn;
   }
 
-  localStorage.setItem('bellora_support_lang', lang);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Initialize language from storage or default to Arabic
-  const savedLang = localStorage.getItem('bellora_support_lang') || 'ar';
-  setLanguage(savedLang);
+  // Initialize from the document locale without browser persistence.
+  const initialLang = document.documentElement.lang === 'en' ? 'en' : 'ar';
+  setLanguage(initialLang);
 
   const langBtn = document.getElementById('langToggleBtn');
   if (langBtn) {
