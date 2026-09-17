@@ -297,7 +297,8 @@ html[lang="en"] body {
 .hero-title {
   font-size: clamp(2.2rem, 5vw, 3.8rem);
   font-weight: 800;
-  line-height: 1.2;
+  line-height: 1.35;
+  padding: 0.05em 0 0.2em;
   margin-bottom: 1.25rem;
   background: linear-gradient(135deg, #ffffff 40%, var(--primary) 90%);
   -webkit-background-clip: text;
