@@ -12,7 +12,7 @@ const translations = {
     navTicket: "تذكرة سريعة",
     navFaq: "الأسئلة الشائعة",
     navAbout: "عن المطور",
-    navDocs: "التوثيق الرسمي",
+    navDocs: "دليل الاستخدام",
     navCta: "محادثة مباشرة",
     
     heroBadge: "مركز الدعم الفني لتجار سلة",
@@ -51,7 +51,7 @@ const translations = {
     chDocsTitle: "التوثيق والدليل الفني",
     chDocsDesc: "شرح مفصل ومصور لتهيئة السلايدر، إعداد النماذج ثلاثية الأبعاد، وتخصيص الألوان وأنماط العرض.",
     chDocsSla: "توثيق إلكتروني متاح دائماً",
-    chDocsAction: "تصفح التوثيق الكامل",
+    chDocsAction: "تصفح دليل الاستخدام",
 
     ticketTag: "إنشاء تذكرة دعم",
     ticketTitle: "تسجيل تذكرة دعم فني",
@@ -118,7 +118,7 @@ const translations = {
     navTicket: "Quick Ticket",
     navFaq: "FAQ",
     navAbout: "About Developer",
-    navDocs: "Official Docs",
+    navDocs: "User Guide",
     navCta: "Live Chat",
     
     heroBadge: "Official Merchant Support Portal for Salla",
@@ -157,7 +157,7 @@ const translations = {
     chDocsTitle: "Technical Documentation",
     chDocsDesc: "Detailed documentation for slider setup, 3D model parameters, colors, and display modes.",
     chDocsSla: "Online documentation available 24/7",
-    chDocsAction: "Browse Full Documentation",
+    chDocsAction: "Browse User Guide",
 
     ticketTag: "Create Support Ticket",
     ticketTitle: "Submit Technical Support Ticket",
